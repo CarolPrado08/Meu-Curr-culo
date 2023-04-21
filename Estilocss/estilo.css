@@ -1,0 +1,169 @@
+body{
+    background-image: url(IMAGENS/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 218vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Alegreya Sans', serif;
+}
+ 
+
+
+
+.header{
+    width: 100%;
+    max-width: 1450px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+.header__link{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.header__link:hover{
+    opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+.icone{
+    width: 40px;
+}
+
+.main{
+    width: 100%;
+    max-width: 700px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.perfil{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.perfil__foto{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 6px solid rgb(184, 127, 174);
+}
+
+.perfil__nome{
+    font-family: 'Damion', cursive;
+    font-size: 52px;
+    font-weight: 400;
+    color: black;
+    margin: 16px 0;
+}
+
+.perfil__descricao{
+    
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(41, 11, 40);
+    margin: 0;
+    width: 100%;
+    max-width: 35opx;
+    text-align: center;
+
+}
+
+.section{
+    padding: 8px;
+    width: 100%;
+    max-width: 350px;
+    margin: 24px auto;
+    box-sizing: border-box;
+
+}
+
+.section__titulo{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(41, 11, 40);
+    margin: 16px 0;
+}
+
+.curso{
+    background-color: rgb(184, 127, 174);
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.curso__titulo{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(244, 214, 243);
+    margin: 16px 0;
+    
+}
+
+.curso__descricao{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0;
+    text-align: center
+}
+
+.footer {
+    width: 100%;
+    height: 42px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer__texto{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.icone--texto{
+    margin: 0 8px;
+    animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar{
+    0%{
+        transform: scale(.8);
+    }
+
+    100%{
+        transform: scale(1.1);
+    }
+}
+
